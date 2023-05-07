@@ -10,6 +10,7 @@ deviceinfo_dtb="qcom/msm8976-leeco-s2"
 deviceinfo_append_dtb="true"
 deviceinfo_modules_initfs=""
 deviceinfo_arch="aarch64"
+deviceinfo_initfs_compression="zstd:default"
 
 # Device related
 deviceinfo_gpu_accelerated="true"
